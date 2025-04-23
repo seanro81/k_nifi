@@ -1,0 +1,12 @@
+{
+ "$schema": "http://json-schema.org/message-01/schema#",
+ "title": "Message",
+ "type": "object",
+ "properties": {
+    "id": { "type": "integer" },
+    "from": { "type": "string" },
+    "to": { "type": "string" },
+    "msg": { "type": "string" }
+ },
+ "required": ["id", "from", "to","msg"]
+}
